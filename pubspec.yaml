@@ -1,0 +1,37 @@
+name: app_club
+description: CLUB Game
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.23+999999999
+
+environment:
+  sdk: 3.8.1
+  flutter: 3.32.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rive: ^0.14.0-dev.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animation/
+
+  fonts:
+    - family: FieldGothicXXCond
+      fonts:
+        - asset: assets/font/fieldgothic-no27.otf
+          weight: 900
+    - family: FieldGothicXCond
+      fonts:
+        - asset: assets/font/fieldgothic-no37.otf
+          weight: 900
+    - family: FieldGothicCompact
+      fonts:
+        - asset: assets/font/fieldgothic-no52.otf
+          weight: 400
+        - asset: assets/font/fieldgothic-no54.otf
+          weight: 600
