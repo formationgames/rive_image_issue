@@ -94,8 +94,8 @@ class _VxAppWidgetState extends State<VxAppWidget> {
   Map<String, RenderImage> _resolveImages(Map<String, dynamic> images) {
     // Process all images in the background
     _processImage('base', 'assets/animation/base.webp');
-    _processImage('core', 'assets/animation/star.webp');
-    _processImage('rare', 'assets/animation/superstar.webp');
+    _processImage('core', 'assets/animation/core.webp');
+    _processImage('rare', 'assets/animation/rare.webp');
     _processImage('elite', 'assets/animation/elite.webp');
     _processImage('star', 'assets/animation/star.webp');
     _processImage('superstar', 'assets/animation/superstar.webp');
