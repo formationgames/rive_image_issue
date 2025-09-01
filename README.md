@@ -1,16 +1,22 @@
-# flutter_rive
+# flutter: flaky image minimal repo
 
-A new Flutter project.
+## Get Started
+- Repo uses `asdf` to manage Flutter SDK version
+- Run `flutter pub get` to install dependencies
+- Launch command to `Debug` in vscode has been added
 
-## Getting Started
+## Reproduction
+- The card should display player images from `assets/animation`
+- However, no images are displayed
+- Comment out `flutter_soloud` dependency in `pubspec.yaml`
+- Rerun `flutter pub get`
+- Restart the app
+- Verify that the images are now displayed correctly
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+Images should display
+![Good](good.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Images do not display
+![Bad](bad.png)
