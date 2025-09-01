@@ -8,5 +8,5 @@ main() async {
 
   await RiveNative.init();
 
-  runApp(VxAppWidget());
+  runApp(SingleChildScrollView(child: VxAppWidget()));
 }

@@ -20,6 +20,7 @@ class _VxAppWidgetState extends State<VxAppWidget> {
   @override
   build(context) {
     final images = _resolveImages({});
+
     return Padding(
       padding: EdgeInsets.all(80),
       child: Column(

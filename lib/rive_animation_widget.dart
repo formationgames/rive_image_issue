@@ -82,7 +82,7 @@ class _RiveAnimationWidget extends State<RiveAnimationWidget> {
   /// Load the rive file and initialise the controller
   Future<void> _initRive() async {
     // final filepath = widget.src.filepath;
-    final filepath = 'assets/animation/card2.riv';
+    final filepath = 'assets/animation/card.riv';
     final artboard = widget.artboard;
 
     // Load the rive asset and hydrate all assets from resources
